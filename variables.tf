@@ -7,7 +7,7 @@ variable "region" {
 variable "bucketname" {
     description = "aws bucket name"
     type = string
-    default = "bar-at-law-test"
+    default = "bar-at-law-test-2"
   
 }
 variable "secret-key" {
