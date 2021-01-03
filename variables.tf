@@ -31,11 +31,11 @@ variable "cidir" {
 variable "cidirprivatesubnet" {
     description = "vpc cidir"
     type = string
-    default = "10.0.0.0"
+    default = "10.0.0.0/30"
 
 }
 variable "cidirpublicsubnet" {
     description = "public subnet cidir"
     type = string
-    default = "10.0.0.1"
+    default = "10.0.0.1/28"
 }
