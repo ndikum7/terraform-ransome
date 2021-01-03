@@ -37,5 +37,5 @@ variable "cidirprivatesubnet" {
 variable "cidirpublicsubnet" {
     description = "public subnet cidir"
     type = string
-    default = "10.0.0.1/28"
+    default = "10.0.0.0/28"
 }
