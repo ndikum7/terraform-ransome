@@ -10,6 +10,7 @@ variable "bucketname" {
     default = "bar-at-law-test-2"
   
 }
+
 variable "secret-key" {
     description = "aws secret key"
     type = string
@@ -18,5 +19,12 @@ variable "secret-key" {
 variable "access-key" {
     description = "aws access key"
     type = string
+  
+}
+
+variable "cidir" {
+    description = "vpc cidir"
+    type = string
+    default = "10.0.0.0/22"
   
 }
